@@ -7,7 +7,7 @@ public class Kafe01 {
         boolean keanggotaan; // keanggotaan ya atau tidak
         int jmlKopi, jmlTeh, jmlRoti; // Menu
         double hargaKopi = 12000.0, hargaTeh = 7000.0, hargaRoti = 20000.0; // harga menu
-        float diskon = 10 / 100f; // diskon
+        float diskon = 10 / 100f; // diskon menu
         double totalHarga, nominalBayar; //  harga dan pembayaran
 
         System.out.print("Masukan keanggotann (true/false): "); // input kebenaran anggota atau tidak
