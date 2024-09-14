@@ -8,12 +8,12 @@ public class Listrik01 {
         int jumlahListrik, totalTagihan;  // penggunaan listrik dan total tagihan
         boolean statusListrik;  //status penggunaan lebih 500 atau tidak
 
-        System.out.println("Masukan jumlah Listrik (kWh)"); //input penggunaan jumlah
+        System.out.println("Masukan jumlah Listrik (kWh)"); //input penggunaan jumlah listrik
         jumlahListrik = input.nextInt();
 
         statusListrik = jumlahListrik > 500 ; // status cek lebih 500 atau tidak
 
-        totalTagihan = jumlahListrik * hargaListrik; // hitung total tagiha  listrik
+        totalTagihan = jumlahListrik * hargaListrik; // hitung total tagihan listrik
 
         System.out.println("Apakah Listrik melebihi 500 kWh?:  " + statusListrik); // output true/false
         System.out.println("Jumlah Listrik : " + jumlahListrik  +  " kWh" ); // output jumlah listrik
