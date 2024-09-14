@@ -11,13 +11,13 @@ public class Kafe01 {
         double totalHarga, nominalBayar; //  harga dan pembayaran
 
         System.out.print("Masukan keanggotann (true/false): "); // input kebenaran anggota atau tidak
-        keanggotaan = input.nextBoolean(); // untuk memanggil scanner keanggotaan
+        keanggotaan = input.nextBoolean(); // untuk memanggil scanner nilai keanggotaan
         System.out.print("Masukan jumlah pembeli kopi: "); // input jumlah pembeli
-        jmlKopi = input.nextInt(); // untuk memanggil scanner jumlah kopi
+        jmlKopi = input.nextInt(); // untuk memanggil scanner nilai jumlah kopi
         System.out.print("Masukan jumlah pembelian teh: "); // input jumlah banyak pembelian teh
-        jmlTeh = input.nextInt(); // untuk memanggil scanner jumlah pembelian teh
+        jmlTeh = input.nextInt(); // untuk memanggil scanner nilai jumlah pembelian teh
         System.out.print("Masukan jumlah pemebelian roti: "); // inpu jumlah banyak pembalian roti
-        jmlRoti = input.nextInt(); // untuk memanggil scanner jumlah pembelian roti
+        jmlRoti = input.nextInt(); // untuk memanggil scanner nilai jumlah pembelian roti
 
         totalHarga = (jmlKopi * hargaKopi) + (jmlTeh * hargaTeh) + (jmlRoti * hargaRoti); // total harga item
         byte totalByte = (byte) totalHarga; //byte harga

@@ -28,7 +28,7 @@ public class Siakad01 {
       System.out.println("Masukan nilai UAS= "); // input nilai UAS
       nilaiUAS = sc.nextDouble(); // mengambil nilai input nilai UAS
 
-      nilaiAkhir = (nilaiKuis * 0.20) + (nilaiTugas * 0.15) + (nilaiUjian * 0.30) + (nilaiUAS * 0.35) ;
+      nilaiAkhir = (nilaiKuis * 0.20) + (nilaiTugas * 0.15) + (nilaiUjian * 0.30) + (nilaiUAS * 0.35) ; // total nilai keseluruhan
 
       System.out.println("Nama: " + nama + "NIM: " + nim); // output nama dan Nim
       System.out.println("Kelas: " + kelas + " Absen: " + absen); // output kelas dan absen
