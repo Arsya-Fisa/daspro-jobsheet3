@@ -14,16 +14,16 @@ public class Gajikaryawan01 {
         System.out.println("Masukan jumlah jam kerja"); // input jumlah jam kerja
         jamKerja = boy.nextInt(); // untuk menambah scanner dan menambah nilai
 
-        totalGaji = jamKerja * upahKerja; //
-        totalBonus = (totalGaji * bonus);
-        totalPajak = (totalGaji + totalBonus) * pajak;
-        totalGajiakhir = totalGaji + totalBonus - totalPajak;
+        totalGaji = jamKerja * upahKerja; // perhitungan total gaji
+        totalBonus = (totalGaji * bonus); // perhitungan total bonus
+        totalPajak = (totalGaji + totalBonus) * pajak; // perhitungan total pajak
+        totalGajiakhir = totalGaji + totalBonus - totalPajak; // perhitungan total gaji akhir
 
-        System.out.println("jam Kerja       :  " + jamKerja);
-        System.out.println("upah perjam     :  " + "Rp " + upahKerja );
-        System.out.println("total Bonus     :  " + "Rp "+ totalBonus);
-        System.out.println("total gaji      :  " + "Rp "+ totalGaji );
-        System.out.println("total pajak     :  " + "Rp "+ totalPajak  );
-        System.out.println("total gaji akhir:  " + "Rp "+ totalGajiakhir );
+        System.out.println("jam Kerja       :  " + jamKerja); // output jumlah jam kerja
+        System.out.println("upah perjam     :  " + "Rp " + upahKerja ); // output jumlah upah
+        System.out.println("total Bonus     :  " + "Rp "+ totalBonus); // output total bonus yang didapat
+        System.out.println("total gaji      :  " + "Rp "+ totalGaji ); // output total haji
+        System.out.println("total pajak     :  " + "Rp "+ totalPajak  ); // output total pajak karyawan
+        System.out.println("total gaji akhir:  " + "Rp "+ totalGajiakhir ); // outpiut total gaji akhir
     }
 }
