@@ -12,7 +12,7 @@ public class Gajikaryawan01 {
         System.out.println("Masukan upah per jam kerja"); // input upah jam kerja
         upahKerja = boy.nextDouble(); // untuk memanggil scanner dan menambahkan nilai
         System.out.println("Masukan jumlah jam kerja"); // input jumlah jam kerja
-        jamKerja = boy.nextInt(); // untuk menambah scanner dan menambah nilai
+        jamKerja = boy.nextInt(); // untuk memanggil scanner dan  nilai input jam kerja
 
         totalGaji = jamKerja * upahKerja; // perhitungan total gaji
         totalBonus = (totalGaji * bonus); // perhitungan total bonus
